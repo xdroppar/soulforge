@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>SOULFORGE · Deadlock stats, live lobby and coaching</title>
-<meta name="description" content="SOULFORGE is a free Deadlock companion app for Windows: your lobby before the match, a coach after it, auto clips of every kill and death, hero builds and FPS help.">
+<meta name="description" content="SOULFORGE is a free Deadlock companion app for Windows, coming soon: your lobby before the match, a coach after it, auto clips of every kill and death, hero builds and FPS help. Sign up for early access.">
 <meta property="og:title" content="SOULFORGE · your Deadlock games, coached">
-<meta property="og:description" content="Free Deadlock app for Windows. Live lobby, coach, auto clips, builds, FPS help. Early beta.">
+<meta property="og:description" content="Free Deadlock app for Windows, coming soon. Live lobby, coach, auto clips, builds, FPS help. Get early access.">
 <meta property="og:image" content="https://thesoulforge.com/img/home.webp">
 <meta property="og:url" content="https://thesoulforge.com/">
 <meta name="twitter:card" content="summary_large_image">
@@ -117,9 +117,7 @@
     <a class="brand" href="#top"><img src="img/mark.png" alt="" width="28" height="28">SOULFORGE</a>
     <div class="links">
       <a href="#features">Features</a>
-      <a href="#start">Get started</a>
-      <a href="#feedback">Feedback</a>
-      <a class="nav-dl" href="https://github.com/xdroppar/soulforge/releases/latest/download/SoulforgeSetup.exe">Download</a>
+      <a class="nav-dl" href="#access">Get early access</a>
     </div>
   </div>
 </nav>
@@ -127,12 +125,12 @@
 <main class="wrap" id="top">
   <div class="hero">
     <img class="mark" src="img/mark.png" alt="" width="96" height="96">
-    <span class="beta"><i></i>Free · Early beta · Windows 10 and 11</span>
+    <span class="beta"><i></i>Coming soon · Free · Windows 10 and 11</span>
     <h1>Your Deadlock games,<br><span>coached.</span></h1>
-    <p class="lead">Your lobby before the match starts. Help while you play. A coach, clips and real numbers after it ends. One free app.</p>
+    <p class="lead">Your lobby before the match starts. Help while you play. A coach, clips and real numbers after it ends. One free app. Coming soon.</p>
     <div class="dl">
-      <a class="btn" href="https://github.com/xdroppar/soulforge/releases/latest/download/SoulforgeSetup.exe">Download for Windows</a>
-      <span class="meta" id="ver">SoulforgeSetup.exe</span>
+      <a class="btn" href="#access">Get early access</a>
+      <span class="meta">Free · Windows 10 and 11</span>
     </div>
     <video class="shot hero-shot" src="img/demo.mp4" poster="img/demo-poster.webp" autoplay muted loop playsinline preload="metadata" width="960" height="622" aria-label="SOULFORGE in action: home, live lobby, in-game help, coach, builds"></video>
   </div>
@@ -219,7 +217,7 @@
 
   <section>
     <div class="kick">App and website</div>
-    <h2>Use it in the browser, or download it</h2>
+    <h2>In the browser, or on your PC</h2>
     <p class="sub">The website version is coming. Some things will always need the app, because they read your game and recordings on your own PC.</p>
     <table class="split">
       <thead><tr><th></th><th>Website</th><th>App</th></tr></thead>
@@ -234,40 +232,25 @@
     </table>
   </section>
 
-  <section id="start">
-    <div class="kick">Three minutes</div>
-    <h2>Getting started</h2>
-    <ol class="steps">
-      <li><div><b>Run SoulforgeSetup.exe</b><p>Windows may say "Windows protected your PC" because the beta isn't signed yet. Click <b style="display:inline">More info</b>, then <b style="display:inline">Run anyway</b>. No admin needed.</p></div></li>
-      <li><div><b>Pick your Steam account</b><p>SOULFORGE lists the Steam accounts signed in on your PC. Click yours, and it reads your recent games (up to a minute, only the first time).</p></div></li>
-      <li><div><b>Turn on Live</b><p>In Steam, right-click Deadlock, then Properties, then General. Add <code>-condebug</code> to Launch options. SOULFORGE shows you how, and goes green once it sees your game.</p></div></li>
-    </ol>
-  </section>
-
-  <section id="feedback">
-    <div class="kick">Early beta</div>
-    <h2>Tell me what to build next</h2>
+  <section id="access">
+    <div class="kick">Coming soon</div>
+    <h2>Get early access</h2>
     <div class="fb">
       <div>
-        <p class="sub">SOULFORGE is early and it's being built in the open. What would you want it to do? What's broken? Everything people ask for here goes on the list.</p>
+        <p class="sub">SOULFORGE is in testing with a small group right now. Leave your email and you'll be one of the first to get it. Tell me what you'd want it to do, too: what people ask for here shapes what gets built.</p>
         <div class="grid">
-          <div class="card"><b>It updates itself</b><p>New versions download in the background, never while you're in a game.</p></div>
-          <div class="card"><b>Found a bug in the app?</b><p>Settings, About, Report a problem. You see everything in the report before it's sent.</p></div>
+          <div class="card"><b>Free</b><p>No paywall on the app.</p></div>
+          <div class="card"><b>One email</b><p>Only when it's ready for you. No spam.</p></div>
         </div>
       </div>
       <form id="fb" action="https://formspree.io/f/xzerrbdv" method="post">
-        <label>What's it about?</label>
-        <div class="chips">
-          <label><input type="radio" name="kind" value="idea" checked> Feature idea</label>
-          <label><input type="radio" name="kind" value="bug"> Something's broken</label>
-          <label><input type="radio" name="kind" value="other"> Other</label>
-        </div>
-        <label for="fb-msg">Tell me</label>
-        <textarea id="fb-msg" name="message" required placeholder="I'd love it if SOULFORGE could..."></textarea>
-        <label for="fb-who">Name or Discord (optional, so I can reply)</label>
-        <input type="text" id="fb-who" name="contact" autocomplete="off">
-        <button class="btn" type="submit">Send</button>
-        <p id="fb-done">Got it, thank you.</p>
+        <input type="hidden" name="kind" value="early-access">
+        <label for="fb-email">Email</label>
+        <input type="email" id="fb-email" name="email" required autocomplete="email" placeholder="you@example.com">
+        <label for="fb-msg">What would you want it to do? (optional)</label>
+        <textarea id="fb-msg" name="message" placeholder="I'd love it if SOULFORGE could..."></textarea>
+        <button class="btn" type="submit">Get early access</button>
+        <p id="fb-done">You're on the list.</p>
       </form>
     </div>
   </section>
@@ -275,6 +258,7 @@
   <section class="faq">
     <div class="kick">Questions</div>
     <h2>FAQ</h2>
+    <details><summary>When is it out?</summary><p>Soon. It's being tested right now. Sign up above and you'll get it first.</p></details>
     <details><summary>Is it free?</summary><p>Yes.</p></details>
     <details><summary>Can it get me banned?</summary><p>It doesn't touch the game. No overlay, nothing injected or loaded into Deadlock. It reads public match data and the log file the game writes itself.</p></details>
     <details><summary>Will it lower my FPS?</summary><p>While Deadlock is running it only reads a text file and makes a few web requests. Heavy work, like cutting clips, waits until the game closes.</p></details>
@@ -286,12 +270,6 @@
   </footer>
 </main>
 <script>
-  // current version + size under the button (GitHub's public API; the button works without it)
-  fetch('https://api.github.com/repos/xdroppar/soulforge/releases/latest').then((r) => r.ok ? r.json() : null).then((j) => {
-    if (!j) return;
-    const a = (j.assets || []).find((x) => x.name === 'SoulforgeSetup.exe');
-    document.getElementById('ver').textContent = `Version ${j.tag_name.replace(/^v/, '')}` + (a ? ` · ${Math.round(a.size / 1048576)} MB` : '');
-  }).catch(() => {});
   // feedback: FEEDBACK_URL is filled in once the form service is set up
   const FEEDBACK_URL = 'https://formspree.io/f/xzerrbdv';
   document.getElementById('fb').addEventListener('submit', async (e) => {
@@ -299,7 +277,7 @@
     const f = e.target, done = document.getElementById('fb-done');
     if (!FEEDBACK_URL) { done.textContent = 'Feedback opens with the public launch. Thanks for trying!'; done.style.display = 'block'; return; }
     const r = await fetch(FEEDBACK_URL, { method: 'POST', body: new FormData(f), headers: { Accept: 'application/json' } }).catch(() => null);
-    done.textContent = r && r.ok ? 'Got it, thank you.' : "That didn't send. Try again in a minute.";
+    done.textContent = r && r.ok ? "You're on the list. Thanks!" : "That didn't send. Try again in a minute.";
     done.style.display = 'block'; if (r && r.ok) f.reset();
   });
 </script>
